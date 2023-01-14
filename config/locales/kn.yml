@@ -510,6 +510,7 @@ kn:
     enter_the_access_code: ಕೋಣೆಯ ಪ್ರವೇಶ ಕೋಡ್ ನಮೂದಿಸಿ
     invalid_provider: ನೀವು ಅಮಾನ್ಯ url ಅನ್ನು ನಮೂದಿಸಿದ್ದೀರಿ. ದಯವಿಟ್ಟು url ಅನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.
     invited: ಸೇರಲು ನಿಮ್ಮನ್ನು ಆಹ್ವಾನಿಸಲಾಗಿದೆ
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: ಭಾಗವಹಿಸುವವರನ್ನು ಆಹ್ವಾನಿಸಿ
     join: ಸೇರಿ
     last_session: "%{session}ನಲ್ಲಿ ಕೊನೆಯ ಸೆಷನ್"

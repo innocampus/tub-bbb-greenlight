@@ -563,7 +563,7 @@ sk_SK:
     invalid_provider: Zadali ste neplatný odkaz. Prosím skontrolujte odkaz a skúste to znova.
     invitation_description: "Toto je pozvánka na pripojenie k %{name} pomocou BigBlueButton. Ak sa chcete pripojiť, kliknite na vyššie uvedený odkaz a napíšte vaše meno."
     invited: Boli ste pozvaný(á) na konferenciu v miestnosti
-    recording_present: "Beriem na vedomie, že táto relácia bude zaznamenaná. Môže to zahŕňať môj hlas a video, ak sú povolené."
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Pozvánka pre účastníkov
     join: Pripojiť sa
     last_session: "Posledná konferencia dňa %{session}"

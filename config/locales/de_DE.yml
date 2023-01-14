@@ -592,7 +592,7 @@ de_DE:
     invalid_provider: "Sie haben eine ungültige URL eingegeben, bitte überprüfen Sie die URL und versuchen Sie es erneut."
     invitation_description: "Sie wurden zu %{name} über BigBlueButton zur Teilnahme eingeladen. Um beizutreten, klicken Sie auf den obigen Link und geben Sie Ihren Namen ein."
     invited: Sie wurden zur Teilnahme eingeladen
-    recording_present: "Ich bin damit einverstanden, dass diese Sitzung aufgezeichnet wird. Die Aufzeichnung kann Sprach- und Videoaufnahmen von mir beinhalten. Bitte beachten Sie, dass die Aufnahme im Anschluss geteilt werden kann."
+    recording_present: "Ich bin damit einverstanden, dass diese Sitzung aufgezeichnet wird. Die Aufzeichnung kann Sprach- und Videoaufnahmen von mir beinhalten. Der Server nimmt aus technischen Gründen zunächst das gesamte Meeting auf. Nachdem die Aufnahme im Meeting gestartet wurde, können die folgenden Teile der Aufnahme für angehörige der TU-Berlin als Video veröffentlicht werden. Die aus technischen Gründen aufgenommenen Teile des Meetings, in denen die Aufnahme nicht explizit gestartet wurde, werden umittelbar nach dem Ende des Meetings von dem Server gelöscht."
     invite_participants: Teilnehmer einladen
     join: Teilnehmen
     last_session: "Letzte Konferenz am %{session}"

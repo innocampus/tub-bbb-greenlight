@@ -541,7 +541,7 @@ zh_CN:
     invalid_provider: 您输入的URL无效。请检查URL并重试。
     invitation_description: "您已被邀请参加 %{name} 会议. 若要加入，请单击上面的链接并输入您的姓名。"  
     invited: 您已被邀请加入
-    recording_present: 我已知悉这次会议将被记录下来。启用录制将包括我的语音和视频。
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: 邀请参与者的链接
     join: 加入
     last_session: "上一次会议%{session}"

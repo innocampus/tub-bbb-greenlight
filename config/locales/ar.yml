@@ -592,7 +592,7 @@ ar:
     invalid_provider: لقد أدخلت رابطًا غير صالح. يرجى التحقق من الرابط والمحاولة مرة أخرى.
     invitation_description: "لقد تمت دعوتك للانضمام إلى %{name} باستخدام  بك بلو بتن. للانضمام ، انقر فوق الرابط أعلاه وأدخل اسمك."
     invited: لقد تمت دعوتك للانضمام
-    recording_present: أقر بأنه سيتم تسجيل هذه الجلسة. قد يشمل ذلك صوتي وفيديو إذا تم تمكينه.
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: دعوة المشاركين
     join: انضم
     last_session: "الجلسة الأخيرة في %{session}"

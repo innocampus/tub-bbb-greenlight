@@ -412,6 +412,7 @@ vi_VN:
     enter_the_access_code:
     invalid_provider:
     invited: Bạn đã được mời tham gia
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Mời Người tham gia
     join: Tham gia
     last_session: "Phiên cuối cùng trên %{session}"

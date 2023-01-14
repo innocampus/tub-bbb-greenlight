@@ -573,7 +573,7 @@ es_MX:
     invalid_provider: La URL introducida es invalida. Revísala e inténtalo de nuevo.
     invitation_description: "Ha sido invitado a unirse a %{name} usando BigBlueButton. Para unirse, haga clic en el enlace superior e introduzca su nombre."
     invited: Hás sido invitado a ingresar
-    recording_present: Reconozco que esta sesión se va a grabar. Esto puede incluir mi voz y vídeo si está habilitado.
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Invitar participantes
     join: Entrar
     last_session: "Última sesión en %{session}"

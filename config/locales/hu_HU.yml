@@ -594,7 +594,7 @@ hu_HU:
     invalid_provider: "Érvénytelen URL-t adtál meg. Kérem, ellenőrizd, majd próbáld újra."
     invitation_description: "Meghívtak, hogy csatlakozz a BigBlueButton használatával ide: %{name}. Kattints az alábbi linkre és add meg a neved."
     invited: Az alábbi videokonferencia várótermébe jutottál. Továbblépéshez add meg helyesen a szükséges adatokat!
-    recording_present: "Tudomásul veszem, hogy erről a munkamenetről felvétel készül, ami tartalmazhatja a hangomat és a képmásomat."
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Résztvevők meghívása
     join: Belépés
     last_session: "Utolsó munkamenet időpontja %{session}"

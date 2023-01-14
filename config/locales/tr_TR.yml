@@ -573,7 +573,7 @@ tr_TR:
     invalid_provider: Geçersiz bir URL girdiniz. Lütfen URL’yi kontrol edip tekrar deneyin.
     invitation_description: "%{name} konferansına katılmak için davet edildiniz. Katılmak için yukarıdaki bağlantıya tıklayın ve isminizi girin."
     invited: Katılım için davet edildiniz!
-    recording_present: Bu oturumun kaydedileceğini kabul ediyorum. Aktif edilirse sesimi ve görüntümü içerebilir.
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Katılımcıları Davet Et
     join: Katıl
     last_session: "%{session}- son oturum"

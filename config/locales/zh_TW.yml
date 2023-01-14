@@ -592,7 +592,7 @@ zh_TW:
     invalid_provider: 您輸入的URL無效。請檢查URL並重試。
     invitation_description: "您已被邀請加入 %{name} 會議。要加入，請按下上面的連結並輸入您的姓名。"
     invited: 您已被邀請加入
-    recording_present: 我已知悉這次會議將被錄影下來。啟用錄影後將包括我的聲音和影像。
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: 邀請與會者的連結
     join: 加入
     last_session: "上一次會議%{session}"

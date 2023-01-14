@@ -592,7 +592,7 @@ cs:
     invalid_provider: Vložili jste neplatné url. Prosím zkontrolujte url a zkuste to znovu.
     invitation_description: "Byl jste pozván na videokonferenci%{name} v BigBlueButton. K připojení do místnosti klikněte na odkaz výše a zadejte svoje jméno."
     invited: Byl jste pozván na konferenci v místnosti
-    recording_present: Souhlasím s nahráváním sezení v místnosti včetně mého hlasu a web kamery pokud jsou zapnuté.
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Pozvánka pro účastníky
     join: Připojit
     last_session: " Poslední konference dne %{session}"

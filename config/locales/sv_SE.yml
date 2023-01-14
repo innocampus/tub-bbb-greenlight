@@ -592,7 +592,7 @@ sv_SE:
     invalid_provider: Du har angett en ogiltig webbadress. Kontrollera webbadressen och försök igen.
     invitation_description: "Du har blivit inbjuden att gå med i %{name}. För att gå med, klicka på länken ovan och ange ditt namn."
     invited: Du har blivit inbjuden att gå med
-    recording_present: Jag godkänner att denna session kommer att spelas in. Detta kan inkludera min röst och video om de är aktiverade.
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Bjud in deltagare
     join: Anslut dig
     last_session: "Sista sessionen på %{session}"

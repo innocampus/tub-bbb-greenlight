@@ -571,7 +571,7 @@ mn_MN:
     invalid_provider: Та хүчингүй url оруулсан байна. Url-г шалгаад дахин оролдоно уу.
     invitation_description: "BigBlueButton ашиглан %{name}-д нэгдэх урилгыг танд өгсөн байна. Нэгдэхийн тулд, дээрх холбоос дээр дарж, нэрээ оруулна уу."
     invited: "Таныг нэгдэхийг урьсан байна. "
-    recording_present: "Энэхүү хурал дээр бичлгэ хийнэ гэдгийг би зөвшөөрч байна. Үүнд миний дуу хоолой, видео идэвхижсэн үед орж болно."
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Оролцогчдыг урих
     join: Нэгдэх
     last_session: "%{session}дээрх сүүлийн хурал"

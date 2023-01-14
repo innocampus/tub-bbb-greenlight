@@ -554,7 +554,7 @@ ca:
     invalid_provider: L'enllaç introduït no és vàlid. Comproveu-lo i torneu a intentar-ho.
     invitation_description: "Heu estat convidat a unir-vos a %{name} utilitzant BigBlueButton. Per a unir-vos-hi, feu clic a l'enllaç superior i introduïu el vostre nom."
     invited: Heu estat convidat a unir-vos
-    recording_present: Reconec que aquesta sessió s'enregistrarà. Això pot incloure la meva veu i el meu vídeo si està activat.
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Convida participants
     join: Entra
     last_session: "Última sessió a %{session}"

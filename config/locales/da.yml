@@ -568,7 +568,7 @@ da:
     invalid_provider: Du har indtastet en forkert url. Tjek venligst adressen og prøv igen.
     invitation_description: "Du er blevet inviteret til at deltage %{name} ved hjælp af BigBlueButton. For at deltage skal du klikke på linket ovenfor og indtaste dit navn."
     invited: Du er blevet inviteret til at deltage
-    recording_present: "Jeg anerkender, at denne session vil blive optaget. Dette kan omfatte min stemme og video, hvis det er aktiveret."
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Inviter Deltagere
     join: Deltag
     last_session: "Sidste session på %{session}"

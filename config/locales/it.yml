@@ -592,7 +592,7 @@ it:
     invalid_provider: Hai inserito una url non valida. Per favore verifica e riprova.
     invitation_description: "Sei stato invitato ad entrare in %{name} usando BigBlueButton. Per entrare, clicca sul link sopra e inserisci il tuo nome."
     invited: Hai ricevuto un invito per partecipare
-    recording_present: Accetto che questa sessione verrà registrata. Questo può includere la mia voce e il video se abilitati.
+    recording_present: "I acknowledge that this session is going to be recorded. This may include my voice and video if enabled. For technical reasons, the server will first record the entire meeting. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. The parts of the meeting recorded for technical reasons, in which the recording was not explicitly started, are deleted by the server immediately after the end of the meeting."
     invite_participants: Invita partecipanti
     join: Partecipa
     last_session: "Ultima sessione: %{session}"
