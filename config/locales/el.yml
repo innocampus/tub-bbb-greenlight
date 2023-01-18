@@ -363,6 +363,9 @@ el:
     no_user_recordings:
     no_matched_recordings:
     recorded_on: "Εγγραφή στις %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Όνομα
       thumbnails: Μικρογραφίες

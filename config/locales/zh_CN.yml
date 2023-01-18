@@ -481,6 +481,9 @@ zh_CN:
     no_user_recordings: 您当前没有录像。
     no_matched_recordings: "没有搜索到 %{inject} 录像"
     recorded_on: "录制于%{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: 名字
       thumbnails: 预览图

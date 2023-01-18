@@ -452,6 +452,9 @@ kn:
     no_user_recordings: ನೀವು ಪ್ರಸ್ತುತ ಯಾವುದೇ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು ಹೊಂದಿಲ್ಲ.
     no_matched_recordings: "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ %{inject}ರೆಕಾರ್ಡಿಂಗ್ ಇಲ್ಲ."
     recorded_on: "%{date}ನಲ್ಲಿ ದಾಖಲಿಸಲಾಗಿದೆ"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: ಹೆಸರು
       thumbnails: ಚಿಕ್ಕಚಿತ್ರಗಳು

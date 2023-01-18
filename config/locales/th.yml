@@ -418,6 +418,9 @@ th:
     no_user_recordings: ขณะนี้คุณไม่มีการบันทึก
     no_matched_recordings: "ไม่พบบันทึกการประชุม %{inject} ที่คุณค้นหา"
     recorded_on: "บันทึกเมื่อ %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: ชื่อ
       thumbnails: ภาพย่อ

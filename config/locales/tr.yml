@@ -523,6 +523,9 @@ tr:
     no_matched_pub_recordings: Aramanıza uygun bir herkese açık kayıt yok.
     no_matched_recordings: Aramanıza uygun bir kayıt yok.
     recorded_on: "%{date} tarihinde kaydedildi"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Ad
       thumbnails: Küçük görseller

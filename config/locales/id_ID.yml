@@ -452,6 +452,9 @@ id_ID:
     no_user_recordings: Saat ini tidak ada rekaman di server
     no_matched_recordings: "Rekaman %{inject} yang Anda cari tidak ditemukan"
     recorded_on: "Direkam pada %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Nama
       thumbnails: Keluku

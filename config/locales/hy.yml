@@ -420,6 +420,9 @@ hy:
     no_user_recordings: Տվյալ պահին դուք չունեք տեսագրություններ
     no_matched_recordings: "Չկան %{inject} տեսագրություններ, որոնք բավարարում են որոնման պայմանին"
     recorded_on: "Տեսագրվել է %{date}-ին"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Անվանում
       thumbnails: Էսքիզ

@@ -523,6 +523,9 @@ de_DE:
     no_matched_pub_recordings: Keine öffentlichen Aufzeichnungen passen zu Ihrer Suche.
     no_matched_recordings: Keine Aufzeichnungen passen zu Ihrer Suche.
     recorded_on: "Aufgezeichnet am %{date}"
+    disclaimer:
+      text: "ACHTUNG: Aufnahmen werden nach 14 Tagen gelöscht. Für die Veröffentlichung bitte auf ISIS hochladen."
+      support: "Bei Problemen kann an bbb-support@innocampus.tu-berlin.de geschrieben werden."
     table:
       name: Name
       thumbnails: Vorschau

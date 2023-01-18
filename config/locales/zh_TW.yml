@@ -523,6 +523,9 @@ zh_TW:
     no_matched_pub_recordings: 沒有公開錄影與您的搜尋相匹配。
     no_matched_recordings: 沒有錄影與您的搜尋相匹配。
     recorded_on: "錄製於%{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: 名字
       thumbnails: 預覽圖

@@ -420,6 +420,9 @@ lv:
     no_user_recordings: Pašlaik jums nav sapulču ierakstu.
     no_matched_recordings: "Nav jūsu meklēšanas kritērijiem atbilstošu %{inject} sapulču ierakstu."
     recorded_on: "Ierakstīts %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Nosaukums
       thumbnails: Priekšskati

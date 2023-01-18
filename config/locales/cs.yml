@@ -523,6 +523,9 @@ cs:
     no_matched_pub_recordings: Nepodařilo se najít žádné veřejné nahrávky.
     no_matched_recordings: Nepodařilo se najít žádné nahrávky.
     recorded_on: "Záznam z %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Jméno
       thumbnails: Náhledy

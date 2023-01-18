@@ -363,6 +363,9 @@ pt:
     no_user_recordings: Você não possui nenhuma gravação.
     no_matched_recordings: "Nenhuma %{inject} gravação corresponde a sua pesquisa."
     recorded_on: "Gravado em %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Nome
       thumbnails: Miniaturas

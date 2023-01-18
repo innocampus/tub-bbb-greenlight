@@ -523,6 +523,9 @@ uk_UA:
     no_matched_pub_recordings: Не знайдено публічних записів за вашим запитом
     no_matched_recordings: Не знайдено записів за вашим запитом
     recorded_on: "Записано %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Назва
       thumbnails: Ескіз

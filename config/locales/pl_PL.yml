@@ -363,6 +363,9 @@ pl_PL:
     no_user_recordings: Obecnie nie masz żadnych nagrań.
     no_matched_recordings: "Brak %{inject} nagrań powiązanych z twoim wyszukiwaniem."
     recorded_on: "Nagrano dn. %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Imię
       thumbnails: Miniatury

@@ -452,6 +452,9 @@ eu:
     no_user_recordings: Ez daukazu grabaziorik une honetan.
     no_matched_recordings: "%{inject} grabaziorik ez dator bat zure bilaketarekin."
     recorded_on: "%{date}-en grabatua"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Izena
       thumbnails: Miniaturak

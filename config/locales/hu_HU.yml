@@ -525,6 +525,9 @@ hu_HU:
     no_matched_pub_recordings: Egyetlen nyilvános felvétel sem felel meg a keresésnek.
     no_matched_recordings: Egyetlen felvétel sem felel meg a keresésnek.
     recorded_on: "Rögzítették %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Előadás megnevezése
       thumbnails: Indexképek

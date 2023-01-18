@@ -369,6 +369,9 @@ nb:
     no_user_recordings: Du har ingen opptak.
     no_matched_recordings: "Ingen %{inject} opptak samsvarer med søket ditt."
     recorded_on: "Tatt opp %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Navn
       thumbnails: Miniatyrbilder

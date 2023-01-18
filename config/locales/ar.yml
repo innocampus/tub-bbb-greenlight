@@ -523,6 +523,9 @@ ar:
     no_matched_pub_recordings: لا توجد تسجيلات عامة تطابق بحثك.
     no_matched_recordings: لا تسجيلات تطابق بحثك.
     recorded_on: "تم التسجيل في %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: الاسم
       thumbnails: الصورة المصغرة

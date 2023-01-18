@@ -420,6 +420,9 @@ bg:
     no_user_recordings: В момента нямате записи
     no_matched_recordings: "Няма %{inject}записи отговарящи на Вашето търсене."
     recorded_on: "Записано на %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Име
       thumbnails: Кадри

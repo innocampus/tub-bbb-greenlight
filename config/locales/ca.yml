@@ -492,6 +492,9 @@ ca:
     no_user_recordings: No teniu cap enregisrament
     no_matched_recordings: "No hi ha %{inject} enregistraments que coincideixin amb la cerca."
     recorded_on: "Enregsitrada el %{date}"
+    disclaimer:
+      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Nom
       thumbnails: Miniatures d'imatge
