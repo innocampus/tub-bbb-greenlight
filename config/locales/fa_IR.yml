@@ -524,7 +524,7 @@ fa_IR:
     no_matched_recordings: هیچ ضبطی با جستجوی شما مطابقت ندارد.
     recorded_on: "ضبط شده در %{date}"
     disclaimer:
-      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      text: "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording."
       support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: نام

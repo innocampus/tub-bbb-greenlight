@@ -524,7 +524,7 @@ hr:
     no_matched_recordings: Nema snimaka koje se podudaraju s vašom pretragom.
     recorded_on: "Snimljeno %{date}"
     disclaimer:
-      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      text: "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording."
       support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Ime

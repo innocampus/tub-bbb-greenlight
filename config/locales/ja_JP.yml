@@ -524,7 +524,7 @@ ja_JP:
     no_matched_recordings: 検索条件に一致する録画はありません。
     recorded_on: " 録画日時：%{date} "
     disclaimer:
-      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      text: "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording."
       support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: 名前

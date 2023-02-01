@@ -485,7 +485,7 @@ ca_ES:
     no_matched_recordings: "No hi ha %{inject} gravacions que coincideixin amb la teva cerca."
     recorded_on: "Gravada el %{date}"
     disclaimer:
-      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      text: "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording."
       support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Nom

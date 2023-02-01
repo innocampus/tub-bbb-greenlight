@@ -510,7 +510,7 @@ ko_KR:
     no_matched_recordings: 검색어와 일치하는 레코딩이 없습니다.
     recorded_on: "녹화된 날짜 %{date}"
     disclaimer:
-      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      text: "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording."
       support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: 이름

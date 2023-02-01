@@ -505,7 +505,7 @@ mn_MN:
     no_matched_recordings: Таны хайлттай тохирох ямар ч бичлэг алга
     recorded_on: "%{date}дээр бичлэг хийсэн"
     disclaimer:
-      text: "ATTENTION: Recordings will be delted after 14 days. Please upload on ISIS to publish a recording."
+      text: "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording."
       support: "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
     table:
       name: Нэр
