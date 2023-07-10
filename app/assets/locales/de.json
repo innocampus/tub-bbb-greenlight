@@ -125,7 +125,7 @@
       "meeting_invitation": "Du wurdest zur Teilnahme eingeladen",
       "meeting_not_started": "Die Konferenz hat noch nicht begonnen",
       "join_meeting_automatically": "Beitritt erfolgt automatisch, sobald die Konferenz beginnt",
-      "recording_consent": "Ich nehme zur Kenntnis, dass die Sitzung aufgezeichnet werden kann. Dies wird meine Stimme und mein Bild einschließen, wenn dies aktiviert ist."
+      "recording_consent": "Ich bin damit einverstanden, dass diese Lehrveranstaltung aufgezeichnet wird. Die Aufzeichnung kann Sprach- und Videoaufnahmen von mir beinhalten. Nachdem die Aufnahme im Meeting gestartet wurde, können die folgenden Teile der Aufnahme für angehörige der TU-Berlin als Video veröffentlicht werden. Aufnahmen außerhalb von Lehrveranstaltungen sind nicht erlaubt."
     },
     "presentation": {
       "presentation": "Präsentation",
@@ -148,8 +148,8 @@
       "settings": "Einstellungen",
       "room_name": "Raumname",
       "user_settings": "Nutzer-Einstellungen",
-      "allow_room_to_be_recorded": "Raum darf aufgezeichnet werden",
-      "require_signed_in": "Nutzende müssen vor dem Beitritt eingeloggt sein",
+      "allow_room_to_be_recorded": "Raum darf aufgezeichnet werden (nur für Lehrveranstaltungen!)",
+      "require_signed_in": "Nutzer:innen müssen vor dem Beitritt eingeloggt sein",
       "require_signed_in_message": "Login erforderlich um beizutreten.",
       "require_mod_approval": "Moderation muss dem Beitritt zustimmen",
       "allow_any_user_to_start": "Alle Nutzenden können die Konferenz starten",
@@ -189,7 +189,9 @@
     "public_recordings_list_empty_description": "Hier werden Aufzeichnungen angezeigt,sobald sie verfügbar sind.",
     "delete_recording": "Aufzeichnung löschen",
     "are_you_sure_delete_recording": "Diese Aufzeichnung wirklich löschen?",
-    "search_not_found": "Keine Aufzeichnungen gefunden"
+    "search_not_found": "Keine Aufzeichnungen gefunden",
+    "disclaimer_text": "ACHTUNG: Aufnahmen werden nach 14 Tagen gelöscht. Für die Veröffentlichung bitte auf ISIS hochladen.",
+    "disclaimer_support": "Bei Problemen kann an bbb-support@innocampus.tu-berlin.de geschrieben werden."
   },
   "admin": {
     "admin_panel": "Administration",
@@ -323,8 +325,8 @@
       "enabled": "Aktiviert",
       "disabled": "Deaktiviert",
       "configurations": {
-        "allow_room_to_be_recorded": "Raum kann aufgezeichnet werden",
-        "allow_room_to_be_recorded_description": "Aufzeichnungen erlauben. Wenn aktiviert, muss die Moderation immer noch den \"Aufnahme\"-Knopf drücken, nachdem die Konferenz begonnen hat.",
+        "allow_room_to_be_recorded": "Raum kann aufgezeichnet werden (nur für Lehrveranstaltungen!)",
+        "allow_room_to_be_recorded_description": "Aufzeichnungen erlauben (nur für Lehrveranstaltungen). Wenn aktiviert, muss die Moderation immer noch den \"Aufnahme\"-Knopf drücken, nachdem die Konferenz begonnen hat.",
         "require_user_signed_in": "Nutzende müssen eingeloggt sein, um teilzunehmen",
         "require_user_signed_in_description": "Teilnahme an der Konferenz ist nur mit einem Konto in Greenlight möglich. Wer nicht eingeloggt ist, wird auf die Login-Seite weitergeleitet.",
         "require_mod_approval": "Moderation muss der Teilnahme zustimmen",
@@ -551,7 +553,7 @@
           "placeholder": "Zugangscode eingeben"
         },
         "recording_consent": {
-          "label": "Ich nehme zur Kenntnis, dass die Sitzung aufgezeichnet werden kann. Dies wird meine Stimme und mein Bild einschließen, wenn dies aktiviert ist."
+          "label": "Ich bin damit einverstanden, dass diese Lehrveranstaltung aufgezeichnet wird. Die Aufzeichnung kann Sprach- und Videoaufnahmen von mir beinhalten. Nachdem die Aufnahme im Meeting gestartet wurde, können die folgenden Teile der Aufnahme für angehörige der TU-Berlin als Video veröffentlicht werden. Aufnahmen außerhalb von Lehrveranstaltungen sind nicht erlaubt."
         }
       }
     },

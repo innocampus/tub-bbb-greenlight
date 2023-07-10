@@ -126,7 +126,7 @@
       "meeting_invitation": "Vous avez été invité à rejoindre la réunion",
       "meeting_not_started": "La réunion n'a pas encore commencé.",
       "join_meeting_automatically": "Vous rejoindrez automatiquement la réunion quand elle débutera",
-      "recording_consent": "Je reconnais savoir que cette session peut être enregistrée. Le cas échéant ma voix et mon image vidéo pourront apparaître lors de la captation."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Documents",
@@ -149,8 +149,8 @@
       "settings": "Paramètres",
       "room_name": "Nom de la salle",
       "user_settings": "Paramètres de l'utilisateur",
-      "allow_room_to_be_recorded": "Permettre les enregistrements dans cette salle",
-      "require_signed_in": "Seuls les utilisateurs authentifiés peuvent rejoindre la salle",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+      "require_signed_in": "Seuls les utilisateurs identifiés peuvent rejoindre la salle",
       "require_signed_in_message": "Vous devez vous identifier pour rejoindre la salle",
       "require_mod_approval": "L'approbation d'un modérateur est nécessaire pour rejoindre la réunion.",
       "allow_any_user_to_start": "Tout utilisateur peut démarrer la réunion",
@@ -190,7 +190,9 @@
     "public_recordings_list_empty_description": "Les enregistrements apparaitront ici dès qu'ils seront disponibles.",
     "delete_recording": "Effacer l'enregistrement",
     "are_you_sure_delete_recording": "Etes-vous sûr·e de vouloir supprimer cet enregistrement ?",
-    "search_not_found": "Aucun enregistrement trouvé"
+    "search_not_found": "Aucun enregistrement trouvé",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Panneau d'administration",
@@ -325,8 +327,8 @@
       "enabled": "Forcer l'activation",
       "disabled": "Désactivé",
       "configurations": {
-        "allow_room_to_be_recorded": "Autoriser les enregistrements pour cette salle",
-        "allow_room_to_be_recorded_description": "Permettre aux propriétaires de la salle de préciser s'ils veulent ou non disposer de l'enregistrement. S'ils l'activent ils devront tout de même cliquer sur le bouton \"Enregistrer\" une fois que la session à débuté.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Demander l'identification des utilisateurs pour rejoindre une salle",
         "require_user_signed_in_description": "Autoriser uniquement les utilisateurs disposant d'un compte Greenlight à se joindre à une réunion. S'ils ne sont pas authentifiés, ils seront redirigés vers la page d'identification quand ils essayent de rejoindre une salle",
         "require_mod_approval": "L'approbation d'un modérateur est nécessaire pour se joindre à une réunion.",

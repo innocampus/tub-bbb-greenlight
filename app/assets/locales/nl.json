@@ -120,7 +120,7 @@
       "meeting_invitation": "Je bent uitgenodigd om deel te nemen",
       "meeting_not_started": "De vergadering is nog niet begonnen",
       "join_meeting_automatically": "Je zult automatisch deelnemen wanneer de vergadering begint",
-      "recording_consent": "Ik bevestig dat deze sessie opgenomen mag worden. Die opname kan mijn stem en beeld bevatten wanneer dit ingeschakeld is."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Presentatie",
@@ -142,7 +142,7 @@
       "settings": "Instellingen",
       "room_name": "Kamernaam",
       "user_settings": "Gebruikersinstellingen",
-      "allow_room_to_be_recorded": "Toestaan dat de kamer opgenomen wordt",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "Vereis dat gebruikers aangemeld zijn voor ze mogen deelnemen",
       "require_signed_in_message": "Je moet ingelogd zijn om deze kamer te kunnen betreden.",
       "require_mod_approval": "Vereis goedkeuring door een moderator voor gebruikers mogen deelnemen",
@@ -178,7 +178,9 @@
     "recordings_list_empty_description": "Opnames zullen hier verschijnen nadat je een vergadering gestart en die opgenomen hebt.",
     "delete_recording": "Verwijder opname",
     "are_you_sure_delete_recording": "Weet je zeker dat je deze opname wil verwijderen?",
-    "search_not_found": "Geen opnames gevonden"
+    "search_not_found": "Geen opnames gevonden",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Beheerderspaneel",
@@ -300,8 +302,8 @@
       "enabled": "Verplicht ingeschakeld",
       "disabled": "Uitgeschakeld",
       "configurations": {
-        "allow_room_to_be_recorded": "Toestaan dat kamer opgenomen wordt",
-        "allow_room_to_be_recorded_description": "Sta kamereigenaars toe om op te geven of ze de optie willen om een kamer op te nemen of niet. Indien ingeschakeld moet de moderator nog steeds klikken op de opname-knop als de vergadering begonnen is.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Vereis dat gebruikers aangemeld zijn voor ze mogen deelnemen",
         "require_user_signed_in_description": "Enkel gebruikers met een account bij Greenlight mogen deelnemen aan de vergadering. Als ze niet ingelogd zijn, dan zullen ze doorverwezen worden naar de aanmeldingspagina wanneer ze proberen deel te nemen aan een vergadering.",
         "require_mod_approval": "Vereis goedkeuring door een moderator voor gebruikers mogen deelnemen",

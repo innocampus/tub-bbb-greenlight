@@ -54,6 +54,10 @@ export default function RecordingsList({
           </Badge>
         )}
       </Stack>
+      <h4 className="mt-2 mb-2 text-danger">
+        {t("recording.disclaimer_text")}<br/>
+        {t("recording.disclaimer_support")}
+      </h4>
       {
         (searchInput && recordings?.data.length === 0)
           ? (

@@ -120,7 +120,7 @@
       "meeting_invitation": "가입 초대를 받았습니다.",
       "meeting_not_started": "미팅이 아직 시작되지 않았습니다",
       "join_meeting_automatically": "미팅이 시작될 때 자동으로 참여합니다",
-      "recording_consent": "이 세션이 녹화될 수 있고 이를 허락합니다. 이 세션에서 녹화가 진행될 경우 내 음성 및 비디오가 포함될 수 있습니다."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "프레젠테이션",
@@ -142,7 +142,7 @@
       "settings": "설정",
       "room_name": "Room 이름",
       "user_settings": "사용자 설정",
-      "allow_room_to_be_recorded": "Room 녹화 허용",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "가입하기 전에 사용자가 로그인하도록 요구",
       "require_signed_in_message": "이 Room에 참가하려면 로그인해야 합니다.",
       "require_mod_approval": "참가하기 전에 진행자 승인 필요",
@@ -178,7 +178,9 @@
     "recordings_list_empty_description": "미팅을 중 녹화된 기록이 여기에 나타납니다.",
     "delete_recording": "녹화 삭제",
     "are_you_sure_delete_recording": "이 녹화를 삭제하시겠습니까?",
-    "search_not_found": "녹화된 기록을 찾을 수 없음"
+    "search_not_found": "녹화된 기록을 찾을 수 없음",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "관리자 패널",
@@ -300,8 +302,8 @@
       "enabled": "강제 실행",
       "disabled": "사용 안함",
       "configurations": {
-        "allow_room_to_be_recorded": "Room 녹화 허용",
-        "allow_room_to_be_recorded_description": "Room 소유자가 녹화 기능의 사용 여부를 지정할 수 있습니다. 활성화된 경우 진행자는 미팅이 시작된 후 Room 상단에 '녹화' 버튼이 활성화 되고 이 버튼을 클릭하면 녹화를 진행할 수 있습니다.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "가입하기 전에 사용자가 로그인해야 함",
         "require_user_signed_in_description": "Greenlight 계정을 가진 사용자만 미팅에 참여할 수 있습니다. 로그인하지 않은 경우, Room에 참여할 때 로그인 페이지로 되돌아 갑니다..",
         "require_mod_approval": "가입하기 전에 진행자 승인 필요",
@@ -520,7 +522,7 @@
           "placeholder": "액세스 코드를 입력하세요"
         },
         "recording_consent": {
-          "label": "이 세션이 녹화될 수 있고 이를 허락합니다. 이 세션에서 녹화가 진행될 경우 내 음성 및 비디오가 포함될 수 있습니다."
+          "label": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
         }
       }
     },

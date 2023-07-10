@@ -126,7 +126,7 @@
       "meeting_invitation": "Έχετε προσκληθεί να συμμετάσχετε",
       "meeting_not_started": "Η διάσκεψη δεν ξεκίνησε ακόμη",
       "join_meeting_automatically": "Θα συνδεθείτε αυτόματα μόλις ξεκινήσει η διάσκεψη",
-      "recording_consent": "Κατανοώ ότι αυτή η συνεδρία ίσως καταγραφεί. Αυτό πιθανός θα συμπεριλαμβάνει τη φωνή μου και το βίντεο εάν είναι ενεργοποιημένα."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Παρουσίαση",
@@ -149,7 +149,7 @@
       "settings": "Ρυθμίσεις",
       "room_name": "Όνομα αίθουσας διάσκεψης",
       "user_settings": "Ρυθμίσεις χρήστη",
-      "allow_room_to_be_recorded": "Να επιτρέπεται η καταγραφή της αίθουσας διάσκεψης",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "Οι χρήστες απαιτείται να έχουν συνδεθεί πριν συμμετάσχουν",
       "require_signed_in_message": "Πρέπει να συνδεθείτε για συμμετοχή σε αυτή την αίθουσα διάσκεψης.",
       "require_mod_approval": "Απαιτείται έγκριση από συντονιστή πριν τη συμμετοχή",
@@ -194,7 +194,9 @@
     "public_recordings_list_empty_description": "Οι καταγραφές θα εμφανιστούν εδώ όταν θα είναι διαθέσιμες.",
     "delete_recording": "Διαγραφή καταγραφών",
     "are_you_sure_delete_recording": "Θέλετε σίγουρα να διαγράψετε αυτή την καταγραφή;",
-    "search_not_found": "Δε βρέθηκαν καταγραφές"
+    "search_not_found": "Δε βρέθηκαν καταγραφές",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Πίνακας διαχειριστή",
@@ -332,8 +334,8 @@
       "enabled": "Αναγκαστική ενεργοποίηση",
       "disabled": "Απενεργοποιήθηκε",
       "configurations": {
-        "allow_room_to_be_recorded": "Να επιτρέπεται η καταγραφή της αίθουσας διάσκεψης",
-        "allow_room_to_be_recorded_description": "Επιτρέπει στους κατόχους της αίθουσας διάσκεψης να καθορίσουν εάν θέλουν την επιλογή καταγραφής ή όχι της αίθουσας. Εάν είναι ενεργοποιημένο, ο συντονιστής πρέπει να κάνει κλικ στο κουμπί «Εγγραφή» μόλις ξεκινήσει η διάσκεψη.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Οι χρήστες απαιτείται να έχουν συνδεθεί πριν συμμετάσχουν",
         "require_user_signed_in_description": "Επιτρέπει μόνο σε χρήστες με λογαριασμό Greenlight να συμμετέχουν στη διάσκεψη. Εάν δεν είναι συνδεδεμένοι, θα ανακατευθυνθούν στη σελίδα σύνδεσης όταν επιχειρούν να συμμετάσχουν σε μια αίθουσα.",
         "require_mod_approval": "Απαιτείται έγκριση από διαχειριστή πριν τη συμμετοχή",
@@ -568,7 +570,7 @@
           "placeholder": "Εισαγάγετε τον κωδικό πρόσβασης"
         },
         "recording_consent": {
-          "label": "Κατανοώ ότι αυτή η συνεδρία ίσως καταγραφεί. Αυτό πιθανός θα συμπεριλαμβάνει τη φωνή μου και το βίντεο εάν είναι ενεργοποιημένα."
+          "label": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
         }
       }
     },

@@ -125,8 +125,8 @@
       "join_meeting": "پیوستن به جلسه",
       "meeting_invitation": "شما برای پیوستن به جلسه دعوت شده‌اید",
       "meeting_not_started": "جلسه هنوز شروع نشده است",
-      "join_meeting_automatically": "با شروع جلسه، به طور خودکار به آن خواهید پیوست.",
-      "recording_consent": "من متوجه هستم که این جلسه ممکن است ضبط شود. این ممکن است شامل صدا و ویدیوی من در صورت فعال‌بودن نیز باشد."
+      "join_meeting_automatically": "با شروع جلسه به طور خودکار به آن ملحق خواهید شد",
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "ارائه",
@@ -149,7 +149,7 @@
       "settings": "تنظیمات",
       "room_name": "نام اتاق",
       "user_settings": "تنظیمات کاربر",
-      "allow_room_to_be_recorded": "اجازه دهید اتاق ضبط شود",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "کاربران قبل از ورود به جلسه، نیازمند ورود به سیستم باشند",
       "require_signed_in_message": "برای پیوستن به این اتاق باید وارد حساب کاربری خود شوید.",
       "require_mod_approval": "قبل از پیوستن به جلسه نیاز به تأیید مدیر باشد",
@@ -329,8 +329,8 @@
       "enabled": "اجباری فعال‌شده",
       "disabled": "غیرفعال‌شده",
       "configurations": {
-        "allow_room_to_be_recorded": "اجازه دهید اتاق ضبط شود",
-        "allow_room_to_be_recorded_description": "به صاحبان اتاق اجازه می‌دهد تعیین کنند که آیا می‌خواهند امکان ضبط اتاق را داشته باشند یا خیر. اگر فعال باشد، مدیر همچنان باید پس از شروع جلسه، روی دکمهٔ «ضبط» کلیک کند.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "کاربران قبل از ورود به جلسه، نیازمند ورود به سیستم باشند",
         "require_user_signed_in_description": "فقط به کاربرانی که دارای حساب کاربری در Greenlight هستند اجازه می‌دهد به جلسه بپیوندند. اگر وارد سیستم نشده باشند، هنگام تلاش برای پیوستن به اتاق، به صفحهٔ ورود هدایت می‌شوند.",
         "require_mod_approval": "قبل از پیوستن به جلسه نیاز به تایید مدیر باشد",
@@ -564,7 +564,7 @@
           "placeholder": "کد دسترسی را وارد کنید"
         },
         "recording_consent": {
-          "label": "من متوجه هستم که این جلسه ممکن است ضبط شود. این ممکن است شامل صدا و ویدیوی من در صورت فعال‌بودن نیز باشد."
+          "label": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
         }
       }
     },

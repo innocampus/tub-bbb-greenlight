@@ -126,7 +126,7 @@
       "meeting_invitation": "You have been invited to join",
       "meeting_not_started": "The meeting has not started yet",
       "join_meeting_automatically": "You will automatically join when the meeting starts",
-      "recording_consent": "I acknowledge that this session may be recorded. This may include my voice and video if enabled."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Presentation",
@@ -149,7 +149,7 @@
       "settings": "Settings",
       "room_name": "Room Name",
       "user_settings": "User Settings",
-      "allow_room_to_be_recorded": "Allow room to be recorded",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "Require users to be signed in before joining",
       "require_signed_in_message": "You must be signed in to join this room.",
       "require_mod_approval": "Require moderator approval before joining",
@@ -194,7 +194,9 @@
     "public_recordings_list_empty_description": "Recordings will appear here when available.",
     "delete_recording": "Delete Recording",
     "are_you_sure_delete_recording": "Are you sure you want to delete this recording?",
-    "search_not_found": "No Recordings Found"
+    "search_not_found": "No Recordings Found",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Administrator Panel",
@@ -332,8 +334,8 @@
       "enabled": "Force Enabled",
       "disabled": "Disabled",
       "configurations": {
-        "allow_room_to_be_recorded": "Allow Room to be recorded",
-        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. If enabled, the moderator must still click the 'Record' button once the meeting has started.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Require users to be signed in before joining",
         "require_user_signed_in_description": "Only allows users with a Greenlight account to join the meeting. If they are not signed in, they will be redirected to the login page when attempting to join a room.",
         "require_mod_approval": "Require moderator approval before joining",
@@ -568,7 +570,7 @@
           "placeholder": "Enter the access code"
         },
         "recording_consent": {
-          "label": "I acknowledge that this session may be recorded. This may include my voice and video if enabled."
+          "label": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
         }
       }
     },

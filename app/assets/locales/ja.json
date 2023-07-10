@@ -126,7 +126,7 @@
       "meeting_invitation": "会議に招待されました",
       "meeting_not_started": "会議はまだ始まっていません",
       "join_meeting_automatically": "会議が始まれば自動的に参加します",
-      "recording_consent": "私はこの会議が録画される可能性があること、また自分の音声とビデオもそれに含まれうることを理解しています。"
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "プレゼンファイル",
@@ -149,7 +149,7 @@
       "settings": "設定",
       "room_name": "会議室名",
       "user_settings": "ユーザー設定",
-      "allow_room_to_be_recorded": "会議室の録画を許可",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "参加前にユーザーのサインインを求める",
       "require_signed_in_message": "この会議への入室にはサインインが必要です。",
       "require_mod_approval": "参加に司会者の許可を必須とする",
@@ -194,7 +194,9 @@
     "public_recordings_list_empty_description": "視聴が許可されると、ここに録画データが表示されます。",
     "delete_recording": "この録画を削除",
     "are_you_sure_delete_recording": "本当にこの録画を削除しますか？",
-    "search_not_found": "録画が見つかりません"
+    "search_not_found": "録画が見つかりません",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "管理者設定",
@@ -332,8 +334,8 @@
       "enabled": "常に許可",
       "disabled": "無効",
       "configurations": {
-        "allow_room_to_be_recorded": "会議室の録画を許可",
-        "allow_room_to_be_recorded_description": "会議室のオーナーが、会議の録画機能の有無を決められるようになります。これをオンにしたとしても、録画を開始するためには、司会者が\"録画\"ボタンを押す必要があります。",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "参加前にユーザーのサインインを求める",
         "require_user_signed_in_description": "Greenlightのアカウントを持つユーザーのみが会議に参加できます。もしサインインなしで参加しようとした場合、ログインページに差し戻されます。",
         "require_mod_approval": "参加に司会者の許可を必須とする",
@@ -568,7 +570,7 @@
           "placeholder": "アクセスコードを入力してください"
         },
         "recording_consent": {
-          "label": "私はこの会議が録画される可能性があること、また自分の音声とビデオもそれに含まれうることを理解しています。"
+          "label": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
         }
       }
     },

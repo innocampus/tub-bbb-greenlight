@@ -123,7 +123,7 @@
       "meeting_invitation": "Вас запросили приєднатись ",
       "meeting_not_started": "Зустріч ще поки не розпочалась",
       "join_meeting_automatically": "Ви автоматично приєднаєтесь коли зустріч розпочнеться",
-      "recording_consent": "Я розумію, що ця сесія може бути записана. Вона може містити мій голос та відео, якщо моя камера увімкнена."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Презентація",
@@ -146,7 +146,7 @@
       "settings": "Налаштування",
       "room_name": "Назва кімнати",
       "user_settings": "Налаштування користувачів",
-      "allow_room_to_be_recorded": "Дозволити запис у кімнаті",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "Вимагати реєстарцію користувачів для приєднання",
       "require_signed_in_message": "Вимагається реєстрація для приєднання до кімнати.",
       "require_mod_approval": "Вимагати схвалення модератором перед приєднанням",
@@ -187,7 +187,9 @@
     "public_recordings_list_empty_description": "Тут буде перелік записів, коли вони стануть доступними.",
     "delete_recording": "Видалити запис",
     "are_you_sure_delete_recording": "Ви певні, що слід видалити цей запис?",
-    "search_not_found": "Записів не знайдено"
+    "search_not_found": "Записів не знайдено",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Панель адміністратора",
@@ -313,8 +315,8 @@
       "enabled": "Примусово увімкнено",
       "disabled": "Вимкнено",
       "configurations": {
-        "allow_room_to_be_recorded": "Дозволити вмикати запис",
-        "allow_room_to_be_recorded_description": "Дозволяє власникам кімнати вказувати, чи хочуть вони дозволити записувати кімнату чи ні. Якщо ввімкнено, модератор все одно має натиснути кнопку «Запис» після початку зустрічі.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Вимагати реєстарцію користувачів для приєднання",
         "require_user_signed_in_description": "Дозволяє приєднуватися до зустрічі лише користувачам із обліковим записом Greenlight. Якщо вони не ввійшли, вони будуть перенаправлені на сторінку входу під час спроби приєднатися до кімнати.",
         "require_mod_approval": "Вимагати схвалення модератором перед приєднанням",
@@ -538,7 +540,7 @@
           "placeholder": "Вкажіть код доступу"
         },
         "recording_consent": {
-          "label": "Я поголжуюсь з тим, що ця зустріч може бути записана. Запис може містити мій голос та відео, якщо вони будуть увімкнені."
+          "label": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
         }
       }
     },

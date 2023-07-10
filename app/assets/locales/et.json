@@ -120,7 +120,7 @@
       "meeting_invitation": "Oled kutsutud liituma",
       "meeting_not_started": "Koosolek pole veel alanud",
       "join_meeting_automatically": "Liitud automaatselt, kui koosolek algab",
-      "recording_consent": "Ma võtan teadmiseks, et seda sessiooni võidakse salvestada. See võib sisaldada mu häält ja videot, kui need on sisse lülitatud."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Esitlus",
@@ -142,7 +142,7 @@
       "settings": "Seaded",
       "room_name": "Ruumi nimi",
       "user_settings": "Kasutaja seaded",
-      "allow_room_to_be_recorded": "Luba ruumi salvestamine",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "Nõua kasutajatelt liitumiseelset sisselogimist",
       "require_signed_in_message": "Pead olema sisse logitud, et selle ruumiga liituda.",
       "require_mod_approval": "Nõua enne liitumist moderaatori heakskiitu",
@@ -178,7 +178,9 @@
     "recordings_list_empty_description": "Salvestused ilmuvad siia pärast koosoleku alustamist ja selle salvestamist.",
     "delete_recording": "Kustuta salvestus",
     "are_you_sure_delete_recording": "Oled kindel, et tahad selle salvestuse kustutada?",
-    "search_not_found": "Salvestusi ei leitud"
+    "search_not_found": "Salvestusi ei leitud",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Administraatori paneel",
@@ -300,8 +302,8 @@
       "enabled": "Jõuga lubatud",
       "disabled": "Keelatud",
       "configurations": {
-        "allow_room_to_be_recorded": "Luba ruumi salvestamine",
-        "allow_room_to_be_recorded_description": "Lubab ruumi omanikel määrata, kas ruumi võib salvestada või mitte. Kui see on lubatud, siis peab moderaator ikkagi 'Salvesta' nuppu vajutama, kui koosolek on alanud.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Nõua liitumiseks kasutaja sisselogimist",
         "require_user_signed_in_description": "Luba ainult Greenlighti kontot omavatel kasutajatel koosolekuga liituda. Kui nad pole koosolekuga liitumisel sisse logitud, siis nad suunatakse sisselogimislehele.",
         "require_mod_approval": "Nõua liitumiseks moderaatori heakskiitu",
@@ -520,7 +522,7 @@
           "placeholder": "Sisesta ligipääsukood"
         },
         "recording_consent": {
-          "label": "Ma võtan teadmiseks, et seda sessiooni võidakse salvestada. See võib sisaldada mu häält ja videot, kui need on sisse lülitatud."
+          "label": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
         }
       }
     },

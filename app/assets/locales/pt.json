@@ -120,7 +120,7 @@
       "meeting_invitation": "Foi convidado/a para participar",
       "meeting_not_started": "A reunião ainda não começou",
       "join_meeting_automatically": "Será automaticamente conectado quando a reunião começar.",
-      "recording_consent": "Eu reconheço que esta sessão pode ser gravada. Isso pode incluir minha voz e vídeo, se habilitados."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Apresentação",
@@ -142,7 +142,7 @@
       "settings": "Definições",
       "room_name": "Nome da sala",
       "user_settings": "Definições do utilizador",
-      "allow_room_to_be_recorded": "Permitir que a reunião seja gravada",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "Exigir que os utilizadores façam login antes de entrar.",
       "require_signed_in_message": "Precisa fazer login para entrar nesta sala",
       "require_mod_approval": "Exigir aprovação do moderador antes de entrar",
@@ -178,7 +178,9 @@
     "recordings_list_empty_description": "As gravações aparecerão aqui depois que iniciar uma reunião e gravá-la.",
     "delete_recording": "Excluir gravação",
     "are_you_sure_delete_recording": "Tem a certeza de que deseja excluir esta gravação?",
-    "search_not_found": "Gravações não encontradas"
+    "search_not_found": "Gravações não encontradas",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Painel de administração",
@@ -300,8 +302,8 @@
       "enabled": "Forçar habilitado",
       "disabled": "Desabilitado",
       "configurations": {
-        "allow_room_to_be_recorded": "Permitir que a sala seja gravada",
-        "allow_room_to_be_recorded_description": "Permite que os proprietários da sala especifiquem se desejam a opção de gravar uma sala ou não. Se ativado, o moderador ainda deve clicar no botão 'Gravar' após o início da reunião.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Exigir que os utilizadores façam login antes de participar",
         "require_user_signed_in_description": "Permite apenas que utilizadores com uma conta Greenlight participem da reunião. Se eles não estiverem conectados, eles serão redirecionados para a página de login ao tentar entrar numa sala.",
         "require_mod_approval": "Exigir aprovação do moderador antes de entrar",

@@ -126,7 +126,7 @@
       "meeting_invitation": "Katılmak üzere çağrıldınız",
       "meeting_not_started": "Toplantı henüz başlamadı",
       "join_meeting_automatically": "Toplantı başladığında otomatik olarak katılacaksınız",
-      "recording_consent": "Bu oturumun kaydedildiğini ve etkinleştirilmiş ise sesim ve görüntümün de kaydedileceğini anladım."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Sunum",
@@ -149,7 +149,7 @@
       "settings": "Ayarlar",
       "room_name": "Oda adı",
       "user_settings": "Kullanıcı ayarları",
-      "allow_room_to_be_recorded": "Odanın kaydı alınabilsin",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "Kullanıcıların katılmadan önce oturum açması zorunlu olsun",
       "require_signed_in_message": "Bu odaya katılmak için oturum açmalısınız.",
       "require_mod_approval": "Katılmadan önce sorumlu onayı gereksin",
@@ -194,7 +194,9 @@
     "public_recordings_list_empty_description": "Kayıtlar yayınlandığında burada görüntülenecek.",
     "delete_recording": "Kaydı sil",
     "are_you_sure_delete_recording": "Bu kaydı silmek istediğinize emin misiniz?",
-    "search_not_found": "Herhangi bir kayıt bulunamadı"
+    "search_not_found": "Herhangi bir kayıt bulunamadı",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Yönetim panosu",
@@ -329,8 +331,8 @@
       "enabled": "Zorla açılsın",
       "disabled": "Kapalı",
       "configurations": {
-        "allow_room_to_be_recorded": "Odanın kaydı alınabilsin",
-        "allow_room_to_be_recorded_description": "Oda sahiplerinin, bir odanın kaydedilmesi hakkında bir seçenek sunmak isteyip istemediklerini belirtmelerini sağlar. Bu seçenek açılsa bile, sorumlu, toplantı başladıktan sonra “Kaydet düğmesine tıklamalıdır.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Kullanıcıların katılmadan önce oturum açması zorunlu olsun",
         "require_user_signed_in_description": "Bu seçenek etkinleştirildiğinde, yalnızca Greenlight hesabı olan kullanıcılar toplantıya katılabilir. Oturum açmamış kullanıcılar, bir odaya katılmaya çalışırken oturum açma sayfasına yönlendirilir.",
         "require_mod_approval": "Katılmadan önce sorumlu onayı gereksin",
@@ -564,7 +566,7 @@
           "placeholder": "Erişim kodunu yazın"
         },
         "recording_consent": {
-          "label": "Bu oturumun kaydedildiğini ve açılmış ise sesim ve görüntümün de kaydedileceğini anladım."
+          "label": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
         }
       }
     },

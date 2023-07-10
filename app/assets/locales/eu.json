@@ -120,7 +120,7 @@
       "meeting_invitation": "Honek gonbidatu zaitu batzera: ",
       "meeting_not_started": "Bilera ez da oraindik hasi",
       "join_meeting_automatically": "Bilera hasterakoan automatikoki batuko zara",
-      "recording_consent": "Onartzen dut bilera hau grabatua izan daitekeela. Honek nere ahotsa eta bideoa barne hartu ditzake hauek gaituta egonez gero."
+      "recording_consent": "I acknowledge that this lecture/tutorial is going to be recorded. This may include my voice and video if enabled. After the recording has been started in the meeting, the following parts of the recording can be published as video for members of the TU-Berlin. Note that only lectures and tutorials are allowed to be recorded."
     },
     "presentation": {
       "presentation": "Aurkezpena",
@@ -142,7 +142,7 @@
       "settings": "Ezarpenak",
       "room_name": "Aretoaren Izena",
       "user_settings": "Erabiltzaileen Ezarpenak",
-      "allow_room_to_be_recorded": "Ahalbidetu aretoa grabatu ahal izatea",
+      "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
       "require_signed_in": "Batu aurretik erabiltzaileek saioa hasi dezatela eskatu",
       "require_signed_in_message": "Saioa hasi behar duzu areto honetara batzeko.",
       "require_mod_approval": "Batu aurretik moderatzailearen onarpena eskatu",
@@ -178,7 +178,9 @@
     "recordings_list_empty_description": "Grabaketak hemen agertuko dira bilera bat hasi eta grabatu ondoren.",
     "delete_recording": "Ezabatu grabaketa",
     "are_you_sure_delete_recording": "Ziur grabaketa ezabatu nahi duzula?",
-    "search_not_found": "Ez da grabaketarik aurkitu"
+    "search_not_found": "Ez da grabaketarik aurkitu",
+    "disclaimer_text": "ATTENTION: Recordings will be deleted after 14 days. Please upload on ISIS to publish a recording.",
+    "disclaimer_support": "If you have any issues, please write to bbb-support@innocampus.tu-berlin.de."
   },
   "admin": {
     "admin_panel": "Kudeaketa-panela",
@@ -300,8 +302,8 @@
       "enabled": "Behartu gaitzea",
       "disabled": "Desgaitua",
       "configurations": {
-        "allow_room_to_be_recorded": "Ahalbidetu aretoa grabatzeko aukera izatea",
-        "allow_room_to_be_recorded_description": "Aretoaren jabeek areto bat grabatzeko aukera nahi duten edo ez zehaztea ahalbidetzea. Gaituz gero, moderatzaileak \"Grabatu\" botoian klik egin behar du bilera hasi ondoren.",
+        "allow_room_to_be_recorded": "Allow room to be recorded (only lectures/tutorials!)",
+        "allow_room_to_be_recorded_description": "Allows room owners to specify whether they want the option to record a room or not. Recordings are only allowd in lectures and tutorials. If enabled, the moderator must still click the Record button once the meeting has started.",
         "require_user_signed_in": "Batu aurretik erabiltzaileak saioa hasi behar izatea eskatu",
         "require_user_signed_in_description": "Greelight kontua duten erabiltzaileei uzten zaie soilik bilerara batzen. Saioa hasi ez badute, saio hasierako orrira berbideratuko dira aretora batzen saiatzerakoan.",
         "require_mod_approval": "Moderatzailearen onarpena behar da batu aurretik",
