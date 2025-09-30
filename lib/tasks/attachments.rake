@@ -16,28 +16,18 @@
 
 # frozen_string_literal: true
 
-module Api
-  module V1
-    module Admin
-      class ServerRecordingsController < ApiController
-        before_action do
-          ensure_authorized('ManageRecordings')
-        end
+require_relative 'task_helpers'
 
-        # GET /api/v1/admin/server_recordings.json
-        # Fetches and returns the list of all server recordings
-        def index
-          sort_config = config_sorting(allowed_columns: %w[name length visibility])
+namespace :attachments do
+  desc 'Checks that the application was configured correctly'
+  task start: :environment do
+    ActiveStorage::Blob.update_all(service_name: 'mirror') # rubocop:disable Rails/SkipsModelValidations
+    ActiveStorage::Blob.find_each(&:mirror_later)
+    success('Started mirroring process...')
+  end
 
-          recordings = Recording.includes(:user)
-                                .with_provider(current_provider)
-                                .order(sort_config, recorded_at: :desc)
-                                &.server_search(params[:search])
-          pagy, recordings = pagy(recordings)
-
-          render_data data: recordings, serializer: ServerRecordingSerializer, meta: pagy_metadata(pagy), status: :ok
-        end
-      end
-    end
+  task :finish, %i[new_service] => :environment do |_task, args|
+    ActiveStorage::Blob.update_all(service_name: args[:new_service]) # rubocop:disable Rails/SkipsModelValidations
+    success('Finished mirroring process...')
   end
 end
