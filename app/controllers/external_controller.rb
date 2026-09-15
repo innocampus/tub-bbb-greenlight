@@ -125,7 +125,8 @@ class ExternalController < ApplicationController
   # GET /meeting_ended
   # Increments a rooms recordings_processing if the meeting was recorded
   def meeting_ended
-    # TODO: - ahmad: Add some sort of validation
+    return render json: {}, status: :unauthorized unless valid_meeting_ended_token?
+
     @room = Room.find_by(meeting_id: extract_meeting_id)
     return render json: {}, status: :ok unless @room
 
@@ -162,13 +163,22 @@ class ExternalController < ApplicationController
     meeting_id
   end
 
+  def valid_meeting_ended_token?
+    return false if params[:token].blank? || params[:meetingID].blank?
+
+    payload = BigBlueButtonApi.new(provider: current_provider).decode_jwt(params[:token])
+    payload[0]['meeting_id'] == extract_meeting_id
+  rescue JWT::DecodeError
+    false
+  end
+
   def valid_invite_token(email:)
     token = cookies[:inviteToken]
 
     return false if token.blank?
 
     # Try to delete the invitation and return true if it succeeds
-    Invitation.destroy_by(email: email.downcase, provider: current_provider, token:).present?
+    Invitation.unexpired.destroy_by(email: email.downcase, provider: current_provider, token:).present?
   end
 
   def build_user_info(credentials)
@@ -194,6 +204,11 @@ class ExternalController < ApplicationController
     user.avatar.attach(
       io: file, filename:, content_type: file.content_type
     )
+
+    return if user.valid?
+
+    Rails.logger.warn("Discarding the avatar for #{user.email}: #{user.errors[:avatar].to_sentence}")
+    user.attachment_changes.delete('avatar')
   rescue StandardError => e
     Rails.logger.error("Failed to upload avatar for #{user.id}: #{e}")
     nil
